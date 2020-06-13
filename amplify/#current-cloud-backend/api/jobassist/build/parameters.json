@@ -1,0 +1,14 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "jobassist",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authjobassist8b1be0cb",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-job-assist-sampledev-01046-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/85195aa9b1afd530b4803059e650ec896ee9004d"
+}
