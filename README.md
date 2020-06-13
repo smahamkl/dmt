@@ -1,6 +1,5 @@
-# Journey - The Job Listing Tracker
+# DMT
 
-#### Deploy a full stack web app to help you organize your job search.
 
 🛠 Built with React, GraphQL, AWS Amplify, & AWS AppSync
 
@@ -26,7 +25,7 @@ The app can be configured to be used by only one person, or allow anyone to sign
 1. Clone the repo & install the dependencies
 
 ```sh
-~ git clone https://github.com/kkemple/journey.git
+~ git clone <repo>
 ~ cd journey
 ~ npm install
 ```
@@ -73,7 +72,7 @@ Once the app starts enter the username and password you used in the previous ste
 ~ git push --set-upstream master
 ```
 
-3. Connect to [AWS Amplify Console](https://console.aws.amazon.com/amplify/home) and wait for build to start. You will be given a production URL and you are ready to track your job listings!
+3. Connect to [AWS Amplify Console](https://console.aws.amazon.com/amplify/home) and wait for build to start. You will be given a production URL and you are ready to track your  listings!
    > If you wish to allow users to sign up and use this app then pick the `shared` branch to connect in Amplify Console, otherwise use `master`.
 
 ---
